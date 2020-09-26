@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351BB76B251ECA3F00EB0DAD /* LocationTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BB76A251ECA3F00EB0DAD /* LocationTracking.swift */; };
+		351BB77A251ECA9D00EB0DAD /* LocationTrackerDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BB772251ECA9D00EB0DAD /* LocationTrackerDataProvider.swift */; };
+		351BB77B251ECA9D00EB0DAD /* LocationTracker+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BB773251ECA9D00EB0DAD /* LocationTracker+State.swift */; };
+		351BB77C251ECA9D00EB0DAD /* LocationTrackingObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BB774251ECA9D00EB0DAD /* LocationTrackingObserver.swift */; };
+		351BB77D251ECA9D00EB0DAD /* CLAuthorizationStatus+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BB775251ECA9D00EB0DAD /* CLAuthorizationStatus+Model.swift */; };
+		351BB77E251ECA9D00EB0DAD /* LocationTrackingDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BB776251ECA9D00EB0DAD /* LocationTrackingDataProtocol.swift */; };
+		351BB77F251ECA9D00EB0DAD /* LocationTrackingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BB778251ECA9D00EB0DAD /* LocationTrackingError.swift */; };
+		351BB780251ECA9D00EB0DAD /* LocationTrackingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BB779251ECA9D00EB0DAD /* LocationTrackingProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		351BB765251ECA3F00EB0DAD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		351BB767251ECA3F00EB0DAD /* libLocationTracking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLocationTracking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		351BB76A251ECA3F00EB0DAD /* LocationTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTracking.swift; sourceTree = "<group>"; };
+		351BB772251ECA9D00EB0DAD /* LocationTrackerDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTrackerDataProvider.swift; sourceTree = "<group>"; };
+		351BB773251ECA9D00EB0DAD /* LocationTracker+State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LocationTracker+State.swift"; sourceTree = "<group>"; };
+		351BB774251ECA9D00EB0DAD /* LocationTrackingObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTrackingObserver.swift; sourceTree = "<group>"; };
+		351BB775251ECA9D00EB0DAD /* CLAuthorizationStatus+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLAuthorizationStatus+Model.swift"; sourceTree = "<group>"; };
+		351BB776251ECA9D00EB0DAD /* LocationTrackingDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTrackingDataProtocol.swift; sourceTree = "<group>"; };
+		351BB778251ECA9D00EB0DAD /* LocationTrackingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTrackingError.swift; sourceTree = "<group>"; };
+		351BB779251ECA9D00EB0DAD /* LocationTrackingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTrackingProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		351BB764251ECA3F00EB0DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351BB75E251ECA3F00EB0DAD = {
+			isa = PBXGroup;
+			children = (
+				351BB769251ECA3F00EB0DAD /* LocationTracking */,
+				351BB768251ECA3F00EB0DAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		351BB768251ECA3F00EB0DAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				351BB767251ECA3F00EB0DAD /* libLocationTracking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		351BB769251ECA3F00EB0DAD /* LocationTracking */ = {
+			isa = PBXGroup;
+			children = (
+				351BB776251ECA9D00EB0DAD /* LocationTrackingDataProtocol.swift */,
+				351BB778251ECA9D00EB0DAD /* LocationTrackingError.swift */,
+				351BB779251ECA9D00EB0DAD /* LocationTrackingProtocol.swift */,
+				351BB771251ECA9D00EB0DAD /* Private */,
+				351BB777251ECA9D00EB0DAD /* Public */,
+				351BB76A251ECA3F00EB0DAD /* LocationTracking.swift */,
+			);
+			path = LocationTracking;
+			sourceTree = "<group>";
+		};
+		351BB771251ECA9D00EB0DAD /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				351BB772251ECA9D00EB0DAD /* LocationTrackerDataProvider.swift */,
+				351BB773251ECA9D00EB0DAD /* LocationTracker+State.swift */,
+				351BB774251ECA9D00EB0DAD /* LocationTrackingObserver.swift */,
+				351BB775251ECA9D00EB0DAD /* CLAuthorizationStatus+Model.swift */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		351BB777251ECA9D00EB0DAD /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		351BB766251ECA3F00EB0DAD /* LocationTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351BB76E251ECA3F00EB0DAD /* Build configuration list for PBXNativeTarget "LocationTracking" */;
+			buildPhases = (
+				351BB763251ECA3F00EB0DAD /* Sources */,
+				351BB764251ECA3F00EB0DAD /* Frameworks */,
+				351BB765251ECA3F00EB0DAD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationTracking;
+			productName = LocationTracking;
+			productReference = 351BB767251ECA3F00EB0DAD /* libLocationTracking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		351BB75F251ECA3F00EB0DAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					351BB766251ECA3F00EB0DAD = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 351BB762251ECA3F00EB0DAD /* Build configuration list for PBXProject "LocationTracking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 351BB75E251ECA3F00EB0DAD;
+			productRefGroup = 351BB768251ECA3F00EB0DAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				351BB766251ECA3F00EB0DAD /* LocationTracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351BB763251ECA3F00EB0DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351BB77A251ECA9D00EB0DAD /* LocationTrackerDataProvider.swift in Sources */,
+				351BB77E251ECA9D00EB0DAD /* LocationTrackingDataProtocol.swift in Sources */,
+				351BB77C251ECA9D00EB0DAD /* LocationTrackingObserver.swift in Sources */,
+				351BB76B251ECA3F00EB0DAD /* LocationTracking.swift in Sources */,
+				351BB77F251ECA9D00EB0DAD /* LocationTrackingError.swift in Sources */,
+				351BB77B251ECA9D00EB0DAD /* LocationTracker+State.swift in Sources */,
+				351BB77D251ECA9D00EB0DAD /* CLAuthorizationStatus+Model.swift in Sources */,
+				351BB780251ECA9D00EB0DAD /* LocationTrackingProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		351BB76C251ECA3F00EB0DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		351BB76D251ECA3F00EB0DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		351BB76F251ECA3F00EB0DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y545S76C5X;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		351BB770251ECA3F00EB0DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y545S76C5X;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		351BB762251ECA3F00EB0DAD /* Build configuration list for PBXProject "LocationTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351BB76C251ECA3F00EB0DAD /* Debug */,
+				351BB76D251ECA3F00EB0DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351BB76E251ECA3F00EB0DAD /* Build configuration list for PBXNativeTarget "LocationTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351BB76F251ECA3F00EB0DAD /* Debug */,
+				351BB770251ECA3F00EB0DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 351BB75F251ECA3F00EB0DAD /* Project object */;
+}
