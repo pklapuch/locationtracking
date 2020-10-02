@@ -15,6 +15,9 @@
 		351BB77E251ECA9D00EB0DAD /* LocationTrackingDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BB776251ECA9D00EB0DAD /* LocationTrackingDataProtocol.swift */; };
 		351BB77F251ECA9D00EB0DAD /* LocationTrackingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BB778251ECA9D00EB0DAD /* LocationTrackingError.swift */; };
 		351BB780251ECA9D00EB0DAD /* LocationTrackingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BB779251ECA9D00EB0DAD /* LocationTrackingProtocol.swift */; };
+		3560B65925269B91005BD577 /* LocationGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3560B65825269B91005BD577 /* LocationGeocoder.swift */; };
+		3560B65D25269D0E005BD577 /* LocationAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3560B65C25269D0E005BD577 /* LocationAddress.swift */; };
+		3560B6612526A447005BD577 /* PostalAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3560B6602526A447005BD577 /* PostalAddress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +42,9 @@
 		351BB776251ECA9D00EB0DAD /* LocationTrackingDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTrackingDataProtocol.swift; sourceTree = "<group>"; };
 		351BB778251ECA9D00EB0DAD /* LocationTrackingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTrackingError.swift; sourceTree = "<group>"; };
 		351BB779251ECA9D00EB0DAD /* LocationTrackingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTrackingProtocol.swift; sourceTree = "<group>"; };
+		3560B65825269B91005BD577 /* LocationGeocoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationGeocoder.swift; sourceTree = "<group>"; };
+		3560B65C25269D0E005BD577 /* LocationAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAddress.swift; sourceTree = "<group>"; };
+		3560B6602526A447005BD577 /* PostalAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalAddress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +80,11 @@
 				351BB776251ECA9D00EB0DAD /* LocationTrackingDataProtocol.swift */,
 				351BB778251ECA9D00EB0DAD /* LocationTrackingError.swift */,
 				351BB779251ECA9D00EB0DAD /* LocationTrackingProtocol.swift */,
-				351BB771251ECA9D00EB0DAD /* Private */,
-				351BB777251ECA9D00EB0DAD /* Public */,
 				351BB76A251ECA3F00EB0DAD /* LocationTracking.swift */,
+				3560B65825269B91005BD577 /* LocationGeocoder.swift */,
+				3560B65C25269D0E005BD577 /* LocationAddress.swift */,
+				3560B6602526A447005BD577 /* PostalAddress.swift */,
+				351BB771251ECA9D00EB0DAD /* Private */,
 			);
 			path = LocationTracking;
 			sourceTree = "<group>";
@@ -90,13 +98,6 @@
 				351BB775251ECA9D00EB0DAD /* CLAuthorizationStatus+Model.swift */,
 			);
 			path = Private;
-			sourceTree = "<group>";
-		};
-		351BB777251ECA9D00EB0DAD /* Public */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				351BB77A251ECA9D00EB0DAD /* LocationTrackerDataProvider.swift in Sources */,
+				3560B65D25269D0E005BD577 /* LocationAddress.swift in Sources */,
 				351BB77E251ECA9D00EB0DAD /* LocationTrackingDataProtocol.swift in Sources */,
+				3560B65925269B91005BD577 /* LocationGeocoder.swift in Sources */,
+				3560B6612526A447005BD577 /* PostalAddress.swift in Sources */,
 				351BB77C251ECA9D00EB0DAD /* LocationTrackingObserver.swift in Sources */,
 				351BB76B251ECA3F00EB0DAD /* LocationTracking.swift in Sources */,
 				351BB77F251ECA9D00EB0DAD /* LocationTrackingError.swift in Sources */,
